@@ -37,6 +37,59 @@
   --nav-dropdown-hover-color: #ffbb27; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
+/* تأكيد ثيم اللون الأصفر - النقطة الأولى */
+:root {
+  --yellow-accent: #f8c928; /* هذا هو اللون الأصفر الذي يبدو في شعارك */
+}
+
+/* تنسيق الكرت النهائي - النقطة الثالثة: التناسق */
+.backend-card-final {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    height: 100%;
+    transition: 0.3s;
+    text-align: left;
+}
+
+.backend-card-final:hover {
+    border-color: var(--yellow-accent); /* الأصفر عند التمرير */
+    transform: translateY(-8px);
+}
+
+.card-header-tech {
+    margin-bottom: 15px;
+}
+
+/* النقطة الأولى: ثيم اللون الأصفر للـ Badges */
+.badge {
+    background: #fffbef; /* خلفية صفراء فاتحة جداً */
+    color: var(--yellow-accent);
+    font-size: 11px;
+    padding: 5px 12px;
+    border-radius: 50px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.portfolio-info-custom h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.portfolio-info-custom p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* زر العرض - النقط
+
+
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
